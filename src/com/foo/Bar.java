@@ -9,6 +9,8 @@ public class Bar {
   public boolean doIt() {
     logger.entry();
     logger.error("Did it again!");
+    logger.error("Did it again!");
+    
     return logger.exit(false);
   }
 }
